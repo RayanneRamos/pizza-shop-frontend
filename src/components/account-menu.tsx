@@ -43,7 +43,7 @@ export function AccountMenu() {
   return (
     <Dialog>
       <DropdownMenu>
-        <DropdownMenuTrigger>
+        <DropdownMenuTrigger asChild>
           <Button
             variant="outline"
             className="flex select-none items-center gap-2"

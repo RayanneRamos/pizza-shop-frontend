@@ -17,10 +17,10 @@ test("paginate orders", async ({ page }) => {
   await page.getByRole("button", { name: "Próxima página" }).click();
 
   await expect(
-    page.getByRole("cell", { name: "Customer 1", exact: true }),
+    page.getByRole("cell", { name: "Customer 11", exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByRole("cell", { name: "Customer 10", exact: true }),
+    page.getByRole("cell", { name: "Customer 20", exact: true }),
   ).toBeVisible();
 
   await page.getByRole("button", { name: "Última página" }).click();

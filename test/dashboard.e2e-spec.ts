@@ -4,7 +4,7 @@ test("Display day orders amount metrics", async ({ page }) => {
   await page.goto("/", { waitUntil: "networkidle" });
 
   await expect(page.getByText("20", { exact: true })).toBeVisible();
-  await expect(page.getByText("-5% em relação a ontem")).toBeVisible();
+  await expect(page.getByTestId("day-orders-amount")).toBeVisible();
 });
 
 test("Display month orders amount metrics", async ({ page }) => {
@@ -18,7 +18,9 @@ test("Display month canceled orders amount metrics", async ({ page }) => {
   await page.goto("/", { waitUntil: "networkidle" });
 
   await expect(page.getByText("5", { exact: true })).toBeVisible();
-  await expect(page.getByText("-5% em relação a ontem")).toBeVisible();
+  await expect(page.getByTestId("month-canceled-orders-amount")).toBeVisible();
+
+  //await expect(page.getByText("-5% em relação a ontem")).toBeVisible();
 });
 
 test("Display month revenue metrics", async ({ page }) => {

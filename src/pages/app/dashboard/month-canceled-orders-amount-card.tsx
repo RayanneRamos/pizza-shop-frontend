@@ -24,7 +24,10 @@ export function MonthCanceledOrdersAmountCard() {
             <span className="text-2xl font-bold tracking-tighter">
               {monthCanceledOrdersAmount.amount.toLocaleString("pt-br")}
             </span>
-            <p className="text-xs text-muted-foreground">
+            <p
+              data-testid="month-canceled-orders-amount"
+              className="text-xs text-muted-foreground"
+            >
               {monthCanceledOrdersAmount.diffFromLastMonth < 0 ? (
                 <>
                   <span className="text-emerald-500 dark:text-emerald-400">
