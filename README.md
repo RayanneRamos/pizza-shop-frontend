@@ -1,7 +1,7 @@
 <h1 align='center'>Pizza Shop</h1>
 
 <p align='center'>
-  <img src='https://github.com/user-attachments/assets/cc967c41-4bb5-4801-b42d-b807aefb0c62' alt='preview' />
+  <img src='https://github.com/user-attachments/assets/931f4099-0b02-4e62-bab7-667fddb31735' alt='preview' />
 </p>
 
 <p  align='center'>
