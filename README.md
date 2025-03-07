@@ -16,6 +16,13 @@
 
 [PizzaShop]() Este projeto de gerenciamento de restaurante permite que o gerente tenha controle total sobre as operações por meio de uma interface intuitiva e fácil de usar. Após acessar sua conta, o gerente pode visualizar gráficos detalhados que apresentam a receita mensal, o número de pedidos feitos e cancelados, além de acompanhar os pedidos realizados no dia. O sistema também exibe os 5 produtos mais populares, ajudando o gerente a identificar tendências de vendas. Além disso, o gerente pode acessar os detalhes dos pedidos e atualizar o status do pedido para "cancelado", "em preparo", "em entrega" ou "entregue", otimizando o fluxo de trabalho e garantindo uma melhor experiência para os clientes.
 
+## 🌟 Funcionalidades
+
+1. **Painel de análise**: Com gráficos detalhados sobre: receita mensal, número de pedidos feitos e cancelados e pedidos realizados no dia.
+2. **Top 5 produtos mais populares**: Ajudando a identificar tendências de vendas.
+3. **Gerenciamento de pedidos**: Acesso a detalhes dos pedidos
+4. **Atualização de status**: "Cancelado", "Em preparo", "Em entrega" ou "Entregue"
+
 ## 🧪 Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
