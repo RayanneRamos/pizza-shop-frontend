@@ -23,7 +23,7 @@
 3. **Gerenciamento de pedidos**: Acesso a detalhes dos pedidos
 4. **Atualização de status**: "Cancelado", "Em preparo", "Em entrega" ou "Entregue"
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
